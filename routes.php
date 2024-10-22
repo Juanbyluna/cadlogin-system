@@ -7,7 +7,7 @@
  // Cria instancias dos controladores para utilizar seus métodos 
  $authController = new AuthController(); //instancia controlador de autenticação
  $userController = new UserController(); //instancia controlador de dashboard
- $dashboardController = new  DashboardController(); //instancia controlador de dashboard
+ $dashboardController = new DashboardController(); //instancia controlador de dashboard
 
  // Coleta a ação de URL, se não houver ação definida, usa 'login' como padrão
  $action = $_GET['action'] ?? 'login'; // usa operador de coalescência nula (??) para definir 'login' se 'action' não estiver presente 
@@ -15,6 +15,14 @@
  switch ($action){
     case 'login':
         $authController->login(); //chama o método de login do controlador de autenticação[]
+        break;
+
+        case 'register':
+            $userController->register();
+            break;
+        default:
+            $authController->login();
+            break;
  }
  
 ?>
