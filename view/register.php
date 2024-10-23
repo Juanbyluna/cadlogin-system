@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
+<<<<<<< HEAD:view/register.php
     <link rel="stylesheet" href="./style.css">
 
+=======
+    <link rel="stylesheet" href="style.css">
+>>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659:view/registrer.php
 
 </head>
 <body>
@@ -27,9 +31,15 @@
                 <option value="gestor">Gestor</option>
                 <option value="colaborador">Colaborador</option>
             </select>
+<<<<<<< HEAD:view/register.php
             <button class="btnregister" type="submit">Cadastrar</button>
        <br><br>
             <a href="index.php?action=login">já possui conta? Ir para o Login</a>
+=======
+            <button type="submit">Cadastrar</button>
+        </form>
+        <a href="index.php?action=login">já possui conta? Ir para o Login</a>
+>>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659:view/registrer.php
     </div>
     </form>
 </body>

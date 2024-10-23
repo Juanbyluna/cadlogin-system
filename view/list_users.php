@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 <?php
 session_start();
 if(isset($_SESSION['perfil'])):
 ?>
 
 
+=======
+>>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659
 <!DOCTYPE html>
 <html lang="pt-br">
  
@@ -14,7 +17,11 @@ if(isset($_SESSION['perfil'])):
     <link rel="stylesheet" type='text/css' media='screen' href="css/list.css"> <!-- Link para o arquivo CSS -->
 </head>
  
+<<<<<<< HEAD
 <body class="<?= $_SESSION['perfil'] ?>"> <!-- Define a classe com base no perfil do usuário -->
+=======
+<body class=""> <!-- Define a classe com base no perfil do usuário -->
+>>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659
     <div class="container">
         <h2>Lista de Usuários</h2>
         <table class="styled-table">
@@ -28,6 +35,7 @@ if(isset($_SESSION['perfil'])):
                 </tr>
             </thead>
             <tbody>
+<<<<<<< HEAD
                 <?php
                 foreach($users as $user):
                 ?>
@@ -51,14 +59,30 @@ if(isset($_SESSION['perfil'])):
                     </td>
                 </tr>
             <?php endforeach; ?>
+=======
+ 
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+ 
+>>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659
             </tbody>
         </table>
  
         <a href="" class="btn">Voltar ao Dashboard</a>
     </div>
 </body>
+<<<<<<< HEAD
 </html>
 
 <?php else: ?>
     <p>Erro: Você não tem permissão para visualizar esta página</p>
 <?php endif; ?>
+=======
+ 
+</html>
+>>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659

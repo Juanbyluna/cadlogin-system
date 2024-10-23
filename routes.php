@@ -16,6 +16,7 @@
     case 'login':
         $authController->login(); //chama o método de login do controlador de autenticação[]
         break;
+<<<<<<< HEAD
     case 'register':
         $userController->register();
         break;
@@ -31,6 +32,15 @@
     default:
         $authController->login();
         break;
+=======
+
+        case 'register':
+            $userController->register();
+            break;
+        default:
+            $authController->login();
+            break;
+>>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659
  }
  
 ?>

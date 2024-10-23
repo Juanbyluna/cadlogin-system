@@ -1,0 +1,76 @@
+/* Reset básico para remover margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilização do corpo e fundo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* Pastel blue */
+}
+
+/* Estilização do formulário */
+form {
+    background-color: #add8e6; /* Light blue */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo para as labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2F4F4F; /* Dark slate gray */
+    font-weight: bold;
+}
+
+/* Estilização dos inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: #f9f9f9;
+}
+
+input::placeholder {
+    color: #a9a9a9;
+}
+
+/* Estilo do botão */
+.btnLogin {
+    background-color: #4682B4; /* Steel blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btnLogin:hover {
+    background-color: #4169E1; /* Royal blue */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    margin-bottom: 15px;
+}
