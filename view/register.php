@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+
 
 </head>
 <body>
@@ -14,7 +15,7 @@
             <label for="">Nome</label>
             <input type="text" name="nome" id="nome" required>
 
-            <label for="">Email</label>
+             <label for="">Email</label>
             <input type="email" name="email" id="email" required>
 
             <label for="">Senha</label>
@@ -26,9 +27,10 @@
                 <option value="gestor">Gestor</option>
                 <option value="colaborador">Colaborador</option>
             </select>
-            <button type="submit">Cadastrar</button>
-        </form>
-        <a href="index.php?action=login">já possui conta? Ir para o Login</a>
+            <button class="btnregister" type="submit">Cadastrar</button>
+       <br><br>
+            <a href="index.php?action=login">já possui conta? Ir para o Login</a>
     </div>
+    </form>
 </body>
 </html>

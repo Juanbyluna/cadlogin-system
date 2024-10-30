@@ -1,0 +1,116 @@
+/* Reset básico para remover margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+h2{
+    text-align: center;
+}
+
+/* Estilização do corpo e fundo */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8E8E8; /* Fundo bege rosado suave */
+}
+
+/* Estilização do formulário */
+form{
+    background-color: #A30000; /* Bordô vibrante */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo para as labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #FFFFFF; /* Branco para contraste */
+    font-weight: bold;
+}
+
+/* Estilização dos inputs e select */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #7A0000; /* Bordô escuro */
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: #F8E8E8; /* Fundo bege rosado suave */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Estilo das opções */
+option {
+    background-color: #F8E8E8; /* Fundo bege rosado suave */
+    color: #7A0000; /* Bordô escuro */
+    font-size: 16px;
+}
+
+/* Efeito hover para inputs e select */
+input:hover, select:hover {
+    background-color: #F3CCCC; /* Bege rosado mais escuro no hover */
+    border-color: #A30000; /* Bordô vibrante no hover */
+}
+
+/* Estilo do botão */
+.btnLogin {
+    background-color: #7A0000; /* Bordô escuro */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Botão maior para destaque */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; /* Texto maior para o botão */
+    font-weight: bold;
+    letter-spacing: 1px; /* Aumento no espaçamento entre letras */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efeito hover e animação para o botão */
+.btnLogin:hover {
+    background-color: #A30000; /* Bordô vibrante no hover */
+    transform: scale(1.05); /* Pequeno aumento ao passar o mouse */
+}
+.btnregister {
+    background-color: #7A0000; /* Bordô escuro */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Botão maior para destaque */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; /* Texto maior para o botão */
+    font-weight: bold;
+    letter-spacing: 1px; /* Aumento no espaçamento entre letras */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efeito hover e animação para o botão */
+.btnregister:hover {
+    background-color: #A30000; /* Bordô vibrante no hover */
+    transform: scale(1.05); /* Pequeno aumento ao passar o mouse */
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+a {
+ text-decoration: none;
+ color: #ff2f00;
+}
