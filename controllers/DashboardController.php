@@ -15,6 +15,11 @@ class DashboardController
         }
         // Se o usuário estiver autenticado, será incluída a View "dashboard.php" que exibe o painel de controle da aplicação
         include "view/dashboard.php";
+<<<<<<< HEAD
+=======
+        include "view/dashboard.php";
+        include "views/dashboard.php";
+>>>>>>> 136f4ba2c12c34fa2ceee7fbdd6789c2c1b1bd92
     }
 }
 }

@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
+<<<<<<< HEAD
 
     <link rel="stylesheet" href="./style.css">
+=======
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="style.css">
+>>>>>>> 136f4ba2c12c34fa2ceee7fbdd6789c2c1b1bd92
 
 </head>
 <body>
@@ -30,10 +40,19 @@
             <button class="btnregister" type="submit">Cadastrar</button>
        <br><br>
             <a href="index.php?action=login">já possui conta? Ir para o Login</a>
+<<<<<<< HEAD
     
        <br><br>
             
         </form>
+=======
+            <button class="btnregister" type="submit">Cadastrar</button>
+       <br><br>
+            <a href="index.php?action=login">já possui conta? Ir para o Login</a>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <a href="index.php?action=login">já possui conta? Ir para o Login</a>
+>>>>>>> 136f4ba2c12c34fa2ceee7fbdd6789c2c1b1bd92
     </div>
     </form>
 </body>

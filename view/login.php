@@ -18,12 +18,20 @@
  
     <main>
 
+<<<<<<< HEAD
     <h2>Login</h2><br>
+=======
+    <h2>Login</h2>
+>>>>>>> 136f4ba2c12c34fa2ceee7fbdd6789c2c1b1bd92
         <form action="index.php?action=login" method="post">
             <section class="form-section">
                 <label for="email">Email:</label>
                 <input type="email" name="email" placeholder="email">
                 <label for="password">Password</label>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 136f4ba2c12c34fa2ceee7fbdd6789c2c1b1bd92
                 <input type="password" name="senha" placeholder="password">
             </section>
             <button class="btnLogin" name="btnLogin" type="submit">Login</button>
@@ -31,6 +39,17 @@
    
         <a href="index.php?action=register">Não possui cadastro? Cadastre-se</a>
 </div>
+<<<<<<< HEAD
+=======
+    </form>
+
+                <input type="password" name="password" placeholder="password">
+            </section>
+            <button class="btnLogin" name="btnLogin" type="submit">Login</button>
+            <a href="index.php?action=registrer">Não possui cadastro? Cadastre-se</a>
+
+        </form>
+>>>>>>> 136f4ba2c12c34fa2ceee7fbdd6789c2c1b1bd92
     </main>
    
 
