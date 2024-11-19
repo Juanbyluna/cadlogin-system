@@ -29,7 +29,7 @@ form{
 }
 
 /* Estilo para as labels */
-label {
+label{
     display: block;
     margin-bottom: 8px;
     color: #FFFFFF; /* Branco para contraste */
@@ -37,7 +37,7 @@ label {
 }
 
 /* Estilização dos inputs e select */
-input, select {
+input, select{
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -50,20 +50,20 @@ input, select {
 }
 
 /* Estilo das opções */
-option {
+option{
     background-color: #F8E8E8; /* Fundo bege rosado suave */
     color: #7A0000; /* Bordô escuro */
     font-size: 16px;
 }
 
 /* Efeito hover para inputs e select */
-input:hover, select:hover {
+input:hover, select:hover{
     background-color: #F3CCCC; /* Bege rosado mais escuro no hover */
     border-color: #A30000; /* Bordô vibrante no hover */
 }
 
 /* Estilo do botão */
-.btnLogin {
+.btnLogin{
     background-color: #7A0000; /* Bordô escuro */
     color: white;
     border: none;
