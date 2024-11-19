@@ -41,6 +41,18 @@ Este projeto foi desenvolvido em sala de aula com o objetivo de implementar um s
    - Utilize a página de cadastro para registrar novos usuários.
    - Faça login para testar o sistema.
 
+## Telas
+ 
+![Bem Vindo](imgforreadme/bemvindo.png)
+
+![Cadastro](imgforreadme/cadastro.png)
+
+![Lista de Usuarios](imgforreadme/listadeusu.png)
+
+![Login](imgforreadme/login.png)
+
+
+
 ## Estrutura do Projeto
 
 - `index.php`: Página inicial do projeto com o formulário de login.
