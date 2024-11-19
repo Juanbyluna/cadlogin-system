@@ -37,7 +37,7 @@ Este projeto foi desenvolvido em sala de aula com o objetivo de implementar um s
 
 
 4. **Acessando o Sistema**:
-   - Abra o navegador e vá para `http://localhost/nome_do_projeto/`.
+   - Abra o navegador e vá para `http://localhost/Cadlogin_System/`.
    - Utilize a página de cadastro para registrar novos usuários.
    - Faça login para testar o sistema.
 
