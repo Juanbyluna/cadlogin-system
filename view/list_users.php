@@ -1,30 +1,22 @@
-<<<<<<< HEAD
 <?php
+
 session_start();
-if(isset($_SESSION['perfil'])):
+if (isset($_SESSION["perfil"])):
+
 ?>
 
-
-=======
->>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659
 <!DOCTYPE html>
-<html lang="pt-br">
- 
+<html lang="pt-br"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Usuários</title>
-    <link rel="stylesheet" type='text/css' media='screen' href="css/list.css"> <!-- Link para o arquivo CSS -->
+    <style><?php include "style.css" ?></style>
 </head>
- 
-<<<<<<< HEAD
 <body class="<?= $_SESSION['perfil'] ?>"> <!-- Define a classe com base no perfil do usuário -->
-=======
-<body class=""> <!-- Define a classe com base no perfil do usuário -->
->>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659
-    <div class="container">
-        <h2>Lista de Usuários</h2>
-        <table class="styled-table">
+    <main>
+        <h2>Lista de Usuários<br><br></h2>
+        <table class="users">
             <thead>
                 <tr>
                     <th>ID</th>
@@ -35,54 +27,29 @@ if(isset($_SESSION['perfil'])):
                 </tr>
             </thead>
             <tbody>
-<<<<<<< HEAD
-                <?php
-                foreach($users as $user):
-                ?>
- 
+                <?php foreach($users as $user): ?>
                 <tr>
-                    <td><?= $user['id']?></td>
-                    <td><?= $user['nome']?></td>
-                    <td><?= $user['email']?></td>
-                    <td><?= $user['perfil']?></td>
+                    <td><?= $user["id"] ?></td>
+                    <td><?= $user["nome"] ?></td>
+                    <td><?= $user["email"] ?></td>
+                    <td><?= $user["perfil"] ?></td>
                     <td>
-                        <?php 
-                        if($_SESSION['perfil'] == 'admin' || $_SESSION ['perfil'] == 'gestor'): 
-                         ?>   
-                         <a href="">Editar</a> 
-                         <?php endif; ?>   
-                         <?php 
-                        if($_SESSION['perfil'] == 'admin'): 
-                         ?>   
-                         <a href="">Excluir</a>
-                         <?php endif; ?>
+                        <?php if ($_SESSION["perfil"] == "admin" || $_SESSION["perfil"] == "gestor"): ?>
+                            <a href="index.php?action=edit&id=<?= $user["id"] ?>" class="edit">Editar</a>
+                        <?php endif; ?>
+                        <?php if ($_SESSION["perfil"] == "admin"): ?>
+                            <a href="index.php?action=delete&id=<?= $user["id"] ?>" class="delete" onclick="return confirm('Tem certeza que deseja excluir?')">Excluir</a>
+                        <?php endif; ?>
                     </td>
                 </tr>
-            <?php endforeach; ?>
-=======
- 
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
- 
->>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659
+                <?php endforeach; ?>
             </tbody>
         </table>
- 
-        <a href="" class="btn">Voltar ao Dashboard</a>
-    </div>
+        <p align="center"><br><br><a href="index.php?action=dashboard" class="btn">Voltar ao Dashboard</a></p>
+    </main>
 </body>
-<<<<<<< HEAD
 </html>
 
 <?php else: ?>
-    <p>Erro: Você não tem permissão para visualizar esta página</p>
+    <p>Erro: Você não tem permissão para visualizar essa página</p>
 <?php endif; ?>
-=======
- 
-</html>
->>>>>>> 05e2e92adeb34acbd718138c4d202e41150b7659
